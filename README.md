@@ -46,6 +46,7 @@
 
 * Game dapat dimainkan langsung melalui browser (disarankan PC).
 * Disarankan menggunakan Google Chrome atau Microsoft Edge untuk performa terbaik.
+* Anda bisa melaporkan jika ada bug.
 
 ---
 
