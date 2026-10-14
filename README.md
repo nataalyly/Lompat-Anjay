@@ -11,7 +11,7 @@ Before the game starts, players choose between two characters — each with thei
 <table>
   <tr>
     <td>
-      <img src="./Assets/LompatAnjay.gif" width="100%">
+      <img src="LompatAnjay.gif" width="100%">
     </td>
     <td valign="top">
 
