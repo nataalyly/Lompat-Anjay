@@ -631,6 +631,7 @@ GameObject:
   - component: {fileID: 291289070}
   - component: {fileID: 291289069}
   - component: {fileID: 291289072}
+  - component: {fileID: 291289073}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -764,6 +765,67 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &291289073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291289067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
+--- !u!1 &298216776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 298216778}
+  - component: {fileID: 298216777}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &298216777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298216776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: bb9c7bb5d462df3429e039e6f207a66f, type: 2}
+--- !u!4 &298216778
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298216776}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 15.181817, y: 7.59024, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &441308576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,7 +1093,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1146,6 +1208,7 @@ GameObject:
   - component: {fileID: 550534293}
   - component: {fileID: 550534292}
   - component: {fileID: 550534295}
+  - component: {fileID: 550534296}
   m_Layer: 5
   m_Name: Resume Button
   m_TagString: Untagged
@@ -1279,6 +1342,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &550534296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550534290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1001 &550698276
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1677,6 +1752,7 @@ GameObject:
   - component: {fileID: 705593267}
   - component: {fileID: 705593266}
   - component: {fileID: 705593269}
+  - component: {fileID: 705593270}
   m_Layer: 5
   m_Name: Pause Button
   m_TagString: Untagged
@@ -1810,6 +1886,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &705593270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705593264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1 &718010584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,6 +1911,7 @@ GameObject:
   - component: {fileID: 718010587}
   - component: {fileID: 718010586}
   - component: {fileID: 718010589}
+  - component: {fileID: 718010590}
   m_Layer: 5
   m_Name: Main Menu Button
   m_TagString: Untagged
@@ -1956,6 +2045,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &718010590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718010584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1 &725684406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,6 +2629,7 @@ GameObject:
   - component: {fileID: 979473606}
   - component: {fileID: 979473605}
   - component: {fileID: 979473612}
+  - component: {fileID: 979473613}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -2562,6 +2664,9 @@ MonoBehaviour:
   moveSpeed: 8
   jumpForce: 15
   screenHalfWidth: 8.5
+  visualTransform: {fileID: 979473611}
+  dustParticlePrefab: {fileID: 6217525692674165365, guid: 1ec8a16ed468e164584b0478542c62b8, type: 3}
+  trailRenderer: {fileID: 979473613}
   jumpSprites:
   - {fileID: 9061743313743578164, guid: a0d0c16c6cb50474e8c723bf1f0a3f55, type: 3}
   - {fileID: 4403079897570484586, guid: 1392e14156a4f0f42ab632d61bdd3591, type: 3}
@@ -2764,6 +2869,125 @@ MonoBehaviour:
   m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!96 &979473613
+TrailRenderer:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 979473604}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 1368465307
+  m_SortingLayer: 2
+  m_SortingOrder: 8
+  m_MaskInteraction: 0
+  m_Time: 0.3
+  m_PreviewTimeScale: 1
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.50462955
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 0.39215687, a: 1}
+      key1: {r: 1, g: 1, b: 0.39215687, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_Autodestruct: 0
+  m_Emitting: 1
+  m_ApplyActiveColorSpace: 1
 --- !u!1 &989665373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3692,6 +3916,7 @@ GameObject:
   - component: {fileID: 1474646361}
   - component: {fileID: 1474646360}
   - component: {fileID: 1474646363}
+  - component: {fileID: 1474646364}
   m_Layer: 5
   m_Name: Retry Button
   m_TagString: Untagged
@@ -3825,6 +4050,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &1474646364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474646358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1 &1629573214
 GameObject:
   m_ObjectHideFlags: 0
@@ -4378,3 +4615,4 @@ SceneRoots:
   - {fileID: 989665377}
   - {fileID: 443798534}
   - {fileID: 550698276}
+  - {fileID: 298216778}

@@ -664,6 +664,7 @@ GameObject:
   - component: {fileID: 1061773358}
   - component: {fileID: 1061773357}
   - component: {fileID: 1061773360}
+  - component: {fileID: 1061773361}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -797,6 +798,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &1061773361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061773355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1 &1187037237
 GameObject:
   m_ObjectHideFlags: 0
@@ -1187,7 +1200,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -1296,6 +1309,7 @@ GameObject:
   - component: {fileID: 1740126915}
   - component: {fileID: 1740126914}
   - component: {fileID: 1740126917}
+  - component: {fileID: 1740126918}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1429,6 +1443,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56d94e429542f7240a5426df829bbd19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ButtonSFX
+--- !u!114 &1740126918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740126912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a5bb8a6281a869419a4421c6ebd11c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::JuicyButton
 --- !u!1 &1755379330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,6 +1644,55 @@ Transform:
   - {fileID: 21844256}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2047039362
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2047039364}
+  - component: {fileID: 2047039363}
+  m_Layer: 0
+  m_Name: Global Volume
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2047039363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047039362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: ffd07f43e5df7c14ba0734b43e1df93b, type: 2}
+--- !u!4 &2047039364
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047039362}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.358603, y: 7.092942, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1626,3 +1701,4 @@ SceneRoots:
   - {fileID: 151325594}
   - {fileID: 935974691}
   - {fileID: 1989118064}
+  - {fileID: 2047039364}

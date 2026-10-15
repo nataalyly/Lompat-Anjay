@@ -24,6 +24,12 @@ public class PlayerCollision : MonoBehaviour
                     PlatformController platform = col.gameObject.GetComponent<PlatformController>();
                     if (platform != null)
                         platform.OnPlayerLand();
+                    
+                    PlatformJuice platformJuice = col.gameObject.GetComponentInChildren<PlatformJuice>();
+                    if (platformJuice != null)
+                    {
+                        platformJuice.TriggerPlatformBounce();
+                    }
 
                     controller.SetGrounded(true);
                     controller.Jump();
