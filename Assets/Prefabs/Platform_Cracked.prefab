@@ -158,6 +158,12 @@ MonoBehaviour:
   moveRange: 2
   spriteNormal: {fileID: 116947273475212686, guid: cd80086f86210344884294a09cf4b8ab, type: 3}
   spriteCracked: {fileID: 6057395766423505125, guid: c2bf69caa6439c24d9e3fa58466debcb, type: 3}
+  debrisPiecePrefabs:
+  - {fileID: 8700196943929547474, guid: d93693a656fc8f646ad13ba094a46c21, type: 3}
+  - {fileID: 8700196943929547474, guid: fce974258b4137a4696faf81d02715a5, type: 3}
+  - {fileID: 8700196943929547474, guid: c063da2c660b64c4e8d419d80b510461, type: 3}
+  - {fileID: 8700196943929547474, guid: 25e38e2c4d5111049a8a843eed0465e3, type: 3}
+  - {fileID: 8700196943929547474, guid: 5291fe5dc368039479e3b864df902667, type: 3}
 --- !u!251 &-761203689374823320
 PlatformEffector2D:
   m_ObjectHideFlags: 0
