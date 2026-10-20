@@ -280,5 +280,5 @@ classDiagram
 - Found a bug? Feel free to open an issue.
 
 ## Credits
-Made by [Natnat](https://github.com/nataalyly)
+Made by [Natnat](https://github.com/nataalyly)<br/>
 Free assets from [Kenney](https://kenney.nl); no original art created
