@@ -1,5 +1,3 @@
-# Lompat Anjay
-
 ## Developer and Contributions
 **nataalyly** (Game Designer & Programmer)
 
@@ -141,7 +139,6 @@ graph TD
 
 <br>
 
-## Game Flowchart
 ## Game Flow Chart
 ```mermaid
 ---
@@ -275,21 +272,6 @@ classDiagram
 - **Difficulty Scaling**: As the player's score increases, the spawn frequency of special platforms (such as moving and cracked platforms) becomes more dynamic.
 - **End Condition**: The game ends when the player character falls past the bottom boundary of the camera (game over zone).
 
-## Personal Contribution
-Solo developer on this project — handled everything end to end:
-- **Game Design** — defined core loop, character concept, and difficulty curve
-- **Programming** — built all gameplay systems from scratch in Unity with C#
-- **Balancing** — tuned platform spawn rate and spacing for a fair but challenging experience
-- **Art** — used free assets from [Kenney](https://kenney.nl); no original art created
-
-## Code Architecture
-- **Singleton pattern** via `GameManager` and `AudioManager` to handle global state, score tracking, and audio across scenes
-- **`DontDestroyOnLoad`** to persist managers through scene transitions
-- **`PlayerPrefs`** for local high score persistence
-- **Unity's new Input System** for keyboard input handling
-- **Procedural spawning** logic with difficulty scaling based on height progression
-- **`Rigidbody2D.linearVelocity`** for physics-based movement to ensure reliable collision
-
 ## Development Duration
 ~2 weeks — solo, from initial setup to WebGL deployment on itch.io
 
@@ -297,5 +279,6 @@ Solo developer on this project — handled everything end to end:
 - Best played on desktop via Google Chrome or Microsoft Edge.
 - Found a bug? Feel free to open an issue.
 
-## Author
+## Credits
 Made by [Natnat](https://github.com/nataalyly)
+Free assets from [Kenney](https://kenney.nl); no original art created
