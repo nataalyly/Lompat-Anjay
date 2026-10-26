@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lompat Anjay
+  m_text: Lompat Jaya
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f24a755d21a7220468749523130087b2, type: 2}
   m_sharedMaterial: {fileID: -1393932426811031557, guid: f24a755d21a7220468749523130087b2, type: 2}
