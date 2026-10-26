@@ -2,7 +2,7 @@
 **nataalyly** (Game Designer & Programmer)
 
 ## About
-Lompat Anjay is a casual vertical arcade game that challenges players to jump as high as possible across various dynamic platforms. Manage your jump momentum, avoid obstacles, utilize special platforms like moving and cracked platforms, and achieve the highest score. Every jump requires precise timing and strategy, as a single mistake will cause you to fall!
+Lompat Jaya is a casual vertical arcade game that challenges players to jump as high as possible across various dynamic platforms. Manage your jump momentum, avoid obstacles, utilize special platforms like moving and cracked platforms, and achieve the highest score. Every jump requires precise timing and strategy, as a single mistake will cause you to fall!
 
 ## Key Features
 **Platform Mechanics**: Jump automatically on top of various platform types. Experience bouncy platforms, moving platforms that travel left and right, and cracked platforms that shatter into pieces when stepped on.
