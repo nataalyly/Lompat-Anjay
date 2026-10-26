@@ -20,7 +20,7 @@ Platforms spawn automatically — just keep moving and don't fall.
 <table>
   <tr>
     <td>
-      <img src="LompatAnjay.gif" width="100%">
+      <img src="LompatJaya.gif" width="100%">
     </td>
     <td valign="top">
 
@@ -30,8 +30,8 @@ Platforms spawn automatically — just keep moving and don't fall.
 
 <br>
 
-[![Play Game](https://img.shields.io/badge/▶_Play_on_itch.io-FF6B35?style=for-the-badge&logoColor=white)](https://nataalyly.itch.io/lompat-anjay)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nataalyly/Lompat-Anjay)
+[![Play Game](https://img.shields.io/badge/▶_Play_on_itch.io-FF6B35?style=for-the-badge&logoColor=white)](https://nataalyly.itch.io/lompat-jaya)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nataalyly/Lompat-Jaya)
 
   </td>
   </tr>
